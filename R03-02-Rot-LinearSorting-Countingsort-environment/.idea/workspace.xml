@@ -4,8 +4,8 @@
     <list default="true" id="d0016bb0-8ba9-452e-bb10-b45257a5c6e7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/sorting/linearSorting/CountingSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sorting/linearSorting/CountingSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sorting/linearSorting/ExtendedCountingSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sorting/linearSorting/ExtendedCountingSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/sorting/test/StudentSortingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sorting/test/StudentSortingTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/test.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,33 +24,33 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="3" />
+          <entry key="java" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="3" />
+          <entry key="JAVA" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="688" />
+          <entry key="java" value="1446" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="688" />
+          <entry key="JAVA" value="1446" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/sorting/linearSorting/CountingSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="619">
-              <caret line="51" column="5" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+            <state relative-caret-position="437">
+              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -58,8 +58,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/sorting/test/StudentSortingTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="749">
-              <caret line="100" column="40" lean-forward="true" selection-start-line="100" selection-start-column="40" selection-end-line="100" selection-end-column="40" />
+            <state relative-caret-position="160">
+              <caret line="42" column="56" selection-start-line="42" selection-start-column="56" selection-end-line="42" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/sorting/linearSorting/ExtendedCountingSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -84,8 +93,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/sorting/test/StudentSortingTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/sorting/linearSorting/CountingSort.java" />
+        <option value="$PROJECT_DIR$/src/test/java/sorting/test/StudentSortingTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sorting/linearSorting/ExtendedCountingSort.java" />
       </list>
     </option>
   </component>
@@ -154,7 +164,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567514348360" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567515693494" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -168,7 +178,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StudentSortingTest.testSort03">
+  <component name="RunManager" selected="JUnit.StudentSortingTest">
     <configuration name="StudentSortingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <extension name="coverage">
@@ -239,8 +249,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StudentSortingTest.testSort03" />
         <item itemvalue="JUnit.StudentSortingTest" />
+        <item itemvalue="JUnit.StudentSortingTest.testSort03" />
         <item itemvalue="JUnit.StudentSortingTest.testSort05" />
         <item itemvalue="JUnit.StudentSortingTest.testSort02" />
       </list>
@@ -260,24 +270,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StudentSortingTest - 2019.09.03 at 09h 17m 28s.xml">
-      <configuration name="StudentSortingTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentSortingTest_testSort05 - 2019.09.03 at 09h 20m 56s.xml">
-      <configuration name="StudentSortingTest.testSort05" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentSortingTest_testSort05 - 2019.09.03 at 09h 21m 20s.xml">
-      <configuration name="StudentSortingTest.testSort05" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentSortingTest_testSort05 - 2019.09.03 at 09h 21m 26s.xml">
-      <configuration name="StudentSortingTest.testSort05" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentSortingTest_testSort05 - 2019.09.03 at 09h 21m 40s.xml">
-      <configuration name="StudentSortingTest.testSort05" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentSortingTest_testSort05 - 2019.09.03 at 09h 36m 09s.xml">
-      <configuration name="StudentSortingTest.testSort05" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="StudentSortingTest_testSort05 - 2019.09.03 at 09h 36m 29s.xml">
       <configuration name="StudentSortingTest.testSort05" configurationId="JUnit" />
     </history-entry>
@@ -288,6 +280,24 @@
       <configuration name="StudentSortingTest.testSort05" configurationId="JUnit" />
     </history-entry>
     <history-entry file="StudentSortingTest - 2019.09.03 at 09h 37m 18s.xml">
+      <configuration name="StudentSortingTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentSortingTest - 2019.09.03 at 09h 38m 14s.xml">
+      <configuration name="StudentSortingTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentSortingTest_testSort03 - 2019.09.03 at 09h 38m 46s.xml">
+      <configuration name="StudentSortingTest.testSort03" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentSortingTest_testSort03 - 2019.09.03 at 09h 43m 51s.xml">
+      <configuration name="StudentSortingTest.testSort03" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentSortingTest - 2019.09.03 at 09h 43m 55s.xml">
+      <configuration name="StudentSortingTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentSortingTest - 2019.09.03 at 10h 00m 27s.xml">
+      <configuration name="StudentSortingTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentSortingTest - 2019.09.03 at 10h 00m 53s.xml">
       <configuration name="StudentSortingTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -340,15 +350,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/sorting/test/StudentSortingTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="749">
-          <caret line="100" column="40" lean-forward="true" selection-start-line="100" selection-start-column="40" selection-end-line="100" selection-end-column="40" />
+        <state relative-caret-position="160">
+          <caret line="42" column="56" selection-start-line="42" selection-start-column="56" selection-end-line="42" selection-end-column="56" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sorting/linearSorting/CountingSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="619">
-          <caret line="51" column="5" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+        <state relative-caret-position="437">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sorting/linearSorting/ExtendedCountingSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
         </state>
       </provider>
     </entry>

@@ -24,7 +24,6 @@ public class CountingSort extends AbstractSorting<Integer> {
 					menor = array[i];
 				}
 			}
-
 			int[] auxiliar = new int[maior - menor + 1];
 			// Registrando a frequencia com que um elemento aparece na sequencia.
 			for (int i = leftIndex; i <= rightIndex; i++) {
