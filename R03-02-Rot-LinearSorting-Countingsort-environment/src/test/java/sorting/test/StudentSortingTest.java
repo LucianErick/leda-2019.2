@@ -8,7 +8,10 @@ import org.junit.Test;
 
 import sorting.AbstractSorting;
 import sorting.linearSorting.CountingSort;
+<<<<<<< HEAD
+=======
 import sorting.linearSorting.ExtendedCountingSort;
+>>>>>>> 08dbbbfc2d40aa71b280566ac6a9b6e38a171f41
 
 public class StudentSortingTest {
 
@@ -40,8 +43,12 @@ public class StudentSortingTest {
 	private void getImplementation() {
 		// TODO O aluno deve instanciar sua implementação abaixo ao invés de
 		// null
+<<<<<<< HEAD
+		this.implementation = new CountingSort();
+=======
 		this.implementation = new ExtendedCountingSort();
 
+>>>>>>> 08dbbbfc2d40aa71b280566ac6a9b6e38a171f41
 	}
 
 	public void populaVetorTamanhoPar(Integer[] arrayPadrao) {

@@ -1,18 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="42ca4986-a3d1-48c2-aa16-671a9b0cb2de" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../R02-02-Rot-RecursiveSorting-3-way-Quicksort-environment/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R02-02-Rot-RecursiveSorting-3-way-Quicksort-environment/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../R02-02-Rot-RecursiveSorting-3-way-Quicksort-environment/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R02-02-Rot-RecursiveSorting-3-way-Quicksort-environment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../R02-02-Rot-RecursiveSorting-3-way-Quicksort-environment/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R02-02-Rot-RecursiveSorting-3-way-Quicksort-environment/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../R02-02-Rot-RecursiveSorting-3-way-Quicksort-environment/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R02-02-Rot-RecursiveSorting-3-way-Quicksort-environment/src/main/java/sorting/divideAndConquer/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../R02-02-Rot-RecursiveSorting-3-way-Quicksort-environment/src/main/java/sorting/divideAndConquer/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R02-02-Rot-RecursiveSorting-3-way-Quicksort-environment/src/main/java/sorting/divideAndConquer/threeWayQuicksort/ThreeWayQuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../R02-02-Rot-RecursiveSorting-3-way-Quicksort-environment/src/main/java/sorting/divideAndConquer/threeWayQuicksort/ThreeWayQuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R02-02-Rot-RecursiveSorting-3-way-Quicksort-environment/src/test/java/sorting/test/StudentSortingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../R02-02-Rot-RecursiveSorting-3-way-Quicksort-environment/src/test/java/sorting/test/StudentSortingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R02-02-Rot-RecursiveSorting-3-way-Quicksort-environment/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../R02-02-Rot-RecursiveSorting-3-way-Quicksort-environment/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R02-02-Rot-RecursiveSorting-3-way-Quicksort-environment/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../R02-02-Rot-RecursiveSorting-3-way-Quicksort-environment/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R02-02-Rot-RecursiveSorting-3-way-Quicksort-environment/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../R02-02-Rot-RecursiveSorting-3-way-Quicksort-environment/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R02-02-Rot-RecursiveSorting-3-way-Quicksort-environment/target/surefire-reports/TEST-sorting.test.StudentSortingTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../R02-02-Rot-RecursiveSorting-3-way-Quicksort-environment/target/surefire-reports/TEST-sorting.test.StudentSortingTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R02-02-Rot-RecursiveSorting-3-way-Quicksort-environment/target/surefire-reports/sorting.test.StudentSortingTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../R02-02-Rot-RecursiveSorting-3-way-Quicksort-environment/target/surefire-reports/sorting.test.StudentSortingTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R02-02-Rot-RecursiveSorting-3-way-Quicksort-environment/target/web/static/js/chart.js" beforeDir="false" afterPath="$PROJECT_DIR$/../R02-02-Rot-RecursiveSorting-3-way-Quicksort-environment/target/web/static/js/chart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sorting/linearSorting/CountingSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sorting/linearSorting/CountingSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/sorting/test/StudentSortingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sorting/test/StudentSortingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/test.iml" afterDir="false" />
+    </list>
+=======
     <list default="true" id="d0016bb0-8ba9-452e-bb10-b45257a5c6e7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/sorting/linearSorting/ExtendedCountingSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sorting/linearSorting/ExtendedCountingSort.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
+>>>>>>> 08dbbbfc2d40aa71b280566ac6a9b6e38a171f41
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1QImdeOzyrnrtifh9BA8pL73nAC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../EDA/TST" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+=======
   <component name="FUSProjectUsageTrigger">
     <session id="721508594">
       <usages-collector id="statistics.lifecycle.project">
@@ -176,6 +223,7 @@
       <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
+>>>>>>> 08dbbbfc2d40aa71b280566ac6a9b6e38a171f41
   </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
@@ -195,7 +243,11 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
+  <component name="RunManager" selected="JUnit.StudentSortingTest.testSort05">
+=======
   <component name="RunManager" selected="JUnit.StudentSortingTest">
+>>>>>>> 08dbbbfc2d40aa71b280566ac6a9b6e38a171f41
     <configuration name="StudentSortingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <extension name="coverage">
@@ -206,10 +258,15 @@
       </extension>
       <option name="PACKAGE_NAME" value="sorting.test" />
       <option name="MAIN_CLASS_NAME" value="sorting.test.StudentSortingTest" />
+<<<<<<< HEAD
+      <option name="TEST_OBJECT" value="class" />
+=======
+>>>>>>> 08dbbbfc2d40aa71b280566ac6a9b6e38a171f41
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="StudentSortingTest.testSort01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <extension name="coverage">
@@ -226,7 +283,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+=======
+<<<<<<< HEAD
+    <configuration name="StudentSortingTest.testSort01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+=======
+>>>>>>> 147ac327fd22d329dc519b4d8d81829c2ff47dc5
     <configuration name="StudentSortingTest.testSort02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+>>>>>>> 08dbbbfc2d40aa71b280566ac6a9b6e38a171f41
       <module name="test" />
       <extension name="coverage">
         <pattern>
@@ -236,13 +299,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="sorting.test" />
       <option name="MAIN_CLASS_NAME" value="sorting.test.StudentSortingTest" />
+<<<<<<< HEAD
+      <option name="METHOD_NAME" value="testSort01" />
+=======
       <option name="METHOD_NAME" value="testSort02" />
+>>>>>>> 08dbbbfc2d40aa71b280566ac6a9b6e38a171f41
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
+    <configuration name="StudentSortingTest.testSort02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+=======
     <configuration name="StudentSortingTest.testSort03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+>>>>>>> 08dbbbfc2d40aa71b280566ac6a9b6e38a171f41
       <module name="test" />
       <extension name="coverage">
         <pattern>
@@ -252,7 +323,11 @@
       </extension>
       <option name="PACKAGE_NAME" value="sorting.test" />
       <option name="MAIN_CLASS_NAME" value="sorting.test.StudentSortingTest" />
+<<<<<<< HEAD
+      <option name="METHOD_NAME" value="testSort02" />
+=======
       <option name="METHOD_NAME" value="testSort03" />
+>>>>>>> 08dbbbfc2d40aa71b280566ac6a9b6e38a171f41
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -274,6 +349,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.StudentSortingTest.testSort05" />
+        <item itemvalue="JUnit.StudentSortingTest" />
+        <item itemvalue="JUnit.StudentSortingTest.testSort02" />
+        <item itemvalue="JUnit.StudentSortingTest.testSort01" />
+=======
     <list>
       <item itemvalue="JUnit.StudentSortingTest" />
       <item itemvalue="JUnit.StudentSortingTest.testSort02" />
@@ -288,6 +371,7 @@
         <item itemvalue="JUnit.StudentSortingTest.testSort03" />
         <item itemvalue="JUnit.StudentSortingTest.testSort05" />
         <item itemvalue="JUnit.StudentSortingTest.testSort02" />
+>>>>>>> 08dbbbfc2d40aa71b280566ac6a9b6e38a171f41
       </list>
     </recent_temporary>
   </component>
@@ -296,6 +380,33 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
+      <changelist id="42ca4986-a3d1-48c2-aa16-671a9b0cb2de" name="Default Changelist" comment="" />
+      <created>1567466572526</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1567466572526</updated>
+      <workItem from="1567466574413" duration="8425000" />
+      <workItem from="1567801164234" duration="302000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+=======
       <changelist id="d0016bb0-8ba9-452e-bb10-b45257a5c6e7" name="Default Changelist" comment="" />
       <created>1567511728548</created>
       <option name="number" value="Default" />
@@ -411,5 +522,6 @@
         </state>
       </provider>
     </entry>
+>>>>>>> 08dbbbfc2d40aa71b280566ac6a9b6e38a171f41
   </component>
 </project>
