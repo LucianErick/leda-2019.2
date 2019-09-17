@@ -16,14 +16,13 @@ public class ExtendedCountingSort extends AbstractSorting<Integer> {
 		if(array.length > 0) {
 			int menor = array[leftIndex];
 			int maior = array[leftIndex];
-			for (int i = leftIndex; i < rightIndex; i++) {
+			for (int i = leftIndex; i <= rightIndex; i++) {
 				if (array[i] >= maior)
 					maior = array[i];
 
 				if (array[i] < menor)
 					menor = array[i];
 			}
-
 			// Registra-se a frequencia em que cada elemento aparece.
 			int[] auxiliar = new int[maior - menor + 1];
 			for (int i = leftIndex; i <= rightIndex; i++) {
@@ -32,11 +31,12 @@ public class ExtendedCountingSort extends AbstractSorting<Integer> {
 
 			// Registra-se a soma cumulativa dos indices ocupados do array auxiliar.
 			for (int i = 1; i < auxiliar.length; i++) {
-				array[i] += array[i - 1];
+				auxiliar[i] += auxiliar[i - 1];
 			}
 
+			// Cria-se um array ordenado, a partir do array incial.
 			Integer[] arrayOrdenado = new Integer[array.length];
-			for (int i = rightIndex; i <= leftIndex ; i--) {
+			for (int i = rightIndex; i >= leftIndex ; i--) {
 				arrayOrdenado[auxiliar[array[i] - menor] - 1] = array[i];
 				auxiliar[array[i] - menor] -= 1;
 			}

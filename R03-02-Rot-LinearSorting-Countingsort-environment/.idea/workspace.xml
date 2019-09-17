@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d0016bb0-8ba9-452e-bb10-b45257a5c6e7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sorting/linearSorting/CountingSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sorting/linearSorting/CountingSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/sorting/linearSorting/ExtendedCountingSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sorting/linearSorting/ExtendedCountingSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/sorting/test/StudentSortingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sorting/test/StudentSortingTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,39 +17,47 @@
     <session id="721508594">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.22" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="java" value="4" />
+          <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JAVA" value="4" />
+          <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1446" />
+          <entry key="java" value="1566" />
+          <entry key="xml" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1446" />
+          <entry key="JAVA" value="1566" />
+          <entry key="XML" value="10" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/sorting/linearSorting/CountingSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+            <state relative-caret-position="910">
+              <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -58,8 +65,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/sorting/test/StudentSortingTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="42" column="56" selection-start-line="42" selection-start-column="56" selection-end-line="42" selection-end-column="56" />
+            <state relative-caret-position="884">
+              <caret line="42" column="42" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3302">
+              <caret line="127" selection-start-line="127" selection-end-line="127" />
             </state>
           </provider>
         </entry>
@@ -67,8 +83,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/sorting/linearSorting/ExtendedCountingSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+            <state relative-caret-position="415">
+              <caret line="38" column="41" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -96,14 +112,15 @@
         <option value="$PROJECT_DIR$/src/main/java/sorting/linearSorting/CountingSort.java" />
         <option value="$PROJECT_DIR$/src/test/java/sorting/test/StudentSortingTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/sorting/linearSorting/ExtendedCountingSort.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
-    <option name="x" value="993" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="517" />
     <option name="y" value="27" />
-    <option name="width" value="917" />
-    <option name="height" value="1053" />
+    <option name="width" value="907" />
+    <option name="height" value="789" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -111,9 +128,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -158,13 +172,16 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567515815065" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567532746075" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -189,6 +206,22 @@
       </extension>
       <option name="PACKAGE_NAME" value="sorting.test" />
       <option name="MAIN_CLASS_NAME" value="sorting.test.StudentSortingTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentSortingTest.testSort01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sorting.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sorting.test" />
+      <option name="MAIN_CLASS_NAME" value="sorting.test.StudentSortingTest" />
+      <option name="METHOD_NAME" value="testSort01" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -246,10 +279,12 @@
       <item itemvalue="JUnit.StudentSortingTest.testSort02" />
       <item itemvalue="JUnit.StudentSortingTest.testSort05" />
       <item itemvalue="JUnit.StudentSortingTest.testSort03" />
+      <item itemvalue="JUnit.StudentSortingTest.testSort01" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.StudentSortingTest" />
+        <item itemvalue="JUnit.StudentSortingTest.testSort01" />
         <item itemvalue="JUnit.StudentSortingTest.testSort03" />
         <item itemvalue="JUnit.StudentSortingTest.testSort05" />
         <item itemvalue="JUnit.StudentSortingTest.testSort02" />
@@ -270,74 +305,95 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StudentSortingTest_testSort05 - 2019.09.03 at 09h 36m 29s.xml">
-      <configuration name="StudentSortingTest.testSort05" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentSortingTest_testSort05 - 2019.09.03 at 09h 36m 50s.xml">
-      <configuration name="StudentSortingTest.testSort05" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentSortingTest_testSort05 - 2019.09.03 at 09h 37m 09s.xml">
-      <configuration name="StudentSortingTest.testSort05" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentSortingTest - 2019.09.03 at 09h 37m 18s.xml">
+    <history-entry file="StudentSortingTest - 2019.09.03 at 10h 06m 13s.xml">
       <configuration name="StudentSortingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentSortingTest - 2019.09.03 at 09h 38m 14s.xml">
+    <history-entry file="StudentSortingTest - 2019.09.03 at 10h 07m 37s.xml">
       <configuration name="StudentSortingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentSortingTest_testSort03 - 2019.09.03 at 09h 38m 46s.xml">
-      <configuration name="StudentSortingTest.testSort03" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentSortingTest_testSort03 - 2019.09.03 at 09h 43m 51s.xml">
-      <configuration name="StudentSortingTest.testSort03" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentSortingTest - 2019.09.03 at 09h 43m 55s.xml">
+    <history-entry file="StudentSortingTest - 2019.09.03 at 10h 07m 47s.xml">
       <configuration name="StudentSortingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentSortingTest - 2019.09.03 at 10h 00m 27s.xml">
+    <history-entry file="StudentSortingTest - 2019.09.03 at 10h 08m 22s.xml">
       <configuration name="StudentSortingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentSortingTest - 2019.09.03 at 10h 00m 53s.xml">
+    <history-entry file="StudentSortingTest - 2019.09.03 at 14h 21m 23s.xml">
+      <configuration name="StudentSortingTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentSortingTest - 2019.09.03 at 14h 21m 39s.xml">
+      <configuration name="StudentSortingTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentSortingTest_testSort01 - 2019.09.03 at 14h 29m 43s.xml">
+      <configuration name="StudentSortingTest.testSort01" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentSortingTest_testSort01 - 2019.09.03 at 14h 30m 17s.xml">
+      <configuration name="StudentSortingTest.testSort01" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentSortingTest_testSort01 - 2019.09.03 at 14h 31m 03s.xml">
+      <configuration name="StudentSortingTest.testSort01" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentSortingTest - 2019.09.03 at 14h 31m 17s.xml">
       <configuration name="StudentSortingTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="993" y="27" width="917" height="1053" extended-state="4" />
+    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Learn" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24913892" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25456557" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Learn" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32899022" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32827735" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3995657" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32936078" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/sorting/linearSorting/CountingSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="910">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/sorting/test/StudentSortingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="42" column="42" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3302">
+          <caret line="127" selection-start-line="127" selection-end-line="127" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sorting/AbstractSorting.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
@@ -348,24 +404,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/sorting/test/StudentSortingTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="42" column="56" selection-start-line="42" selection-start-column="56" selection-end-line="42" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sorting/linearSorting/CountingSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sorting/linearSorting/ExtendedCountingSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+        <state relative-caret-position="415">
+          <caret line="38" column="41" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
         </state>
       </provider>
     </entry>
