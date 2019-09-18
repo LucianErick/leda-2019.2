@@ -8,8 +8,6 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-import java.util.Stack;
-
 public class StudentStackTest {
 
 	public Stack<Integer> stack1;
@@ -34,9 +32,9 @@ public class StudentStackTest {
 
 	private void getImplementations() {
 		// TODO O aluno deve ajustar aqui para instanciar sua implementação
-		stack1 = new StackImpl<>(2);
-		stack2 = null;
-		stack3 = null;
+		stack1 = new StackImpl<>(4);
+		stack2 = new StackImpl<>(2);
+		stack3 = new StackImpl<>(5);
 	}
 
 	// MÉTODOS DE TESTE
@@ -60,6 +58,7 @@ public class StudentStackTest {
 	public void testPush() {
 		try {
 			stack1.push(new Integer(5));
+
 		} catch (StackOverflowException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -68,7 +67,7 @@ public class StudentStackTest {
 
 	@Test(expected = StackOverflowException.class)
 	public void testPushComErro() throws StackOverflowException {
-		stack1.push(new Integer(5)); // levanta excecao apenas se o tamanhonao
+	    stack1.push(new Integer(5)); // levanta excecao apenas se o tamanhonao
 										// permitir outra insercao
 	}
 

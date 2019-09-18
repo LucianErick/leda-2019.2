@@ -42,11 +42,11 @@ public class StackImpl<T> implements Stack<T> {
 
 	@Override
 	public T pop() throws StackUnderflowException {
-		if (!isEmpty()) {
-			T aux = array[this.top];
-			array[this.top] = null;
-			return aux;
+		if (isEmpty()) {
+			throw new StackUnderflowException();
 		}
-		throw new StackUnderflowException();
+		T aux = array[this.top];
+		array[this.top] = null;
+		return aux;
 	}
 }

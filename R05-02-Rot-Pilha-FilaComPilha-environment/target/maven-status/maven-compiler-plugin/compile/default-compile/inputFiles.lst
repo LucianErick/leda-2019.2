@@ -1,0 +1,9 @@
+/home/erick/Documentos/LEDA/Roteiros/leda-2019.2/R05-02-Rot-Pilha-FilaComPilha-environment/src/main/java/adt/stack/Stack.java
+/home/erick/Documentos/LEDA/Roteiros/leda-2019.2/R05-02-Rot-Pilha-FilaComPilha-environment/src/main/java/adt/queue/QueueUnderflowException.java
+/home/erick/Documentos/LEDA/Roteiros/leda-2019.2/R05-02-Rot-Pilha-FilaComPilha-environment/src/main/java/adt/stack/StackOverflowException.java
+/home/erick/Documentos/LEDA/Roteiros/leda-2019.2/R05-02-Rot-Pilha-FilaComPilha-environment/src/main/java/adt/queue/QueueOverflowException.java
+/home/erick/Documentos/LEDA/Roteiros/leda-2019.2/R05-02-Rot-Pilha-FilaComPilha-environment/src/main/java/adt/queue/QueueImpl.java
+/home/erick/Documentos/LEDA/Roteiros/leda-2019.2/R05-02-Rot-Pilha-FilaComPilha-environment/src/main/java/adt/stack/StackImpl.java
+/home/erick/Documentos/LEDA/Roteiros/leda-2019.2/R05-02-Rot-Pilha-FilaComPilha-environment/src/main/java/adt/queue/QueueUsingStack.java
+/home/erick/Documentos/LEDA/Roteiros/leda-2019.2/R05-02-Rot-Pilha-FilaComPilha-environment/src/main/java/adt/stack/StackUnderflowException.java
+/home/erick/Documentos/LEDA/Roteiros/leda-2019.2/R05-02-Rot-Pilha-FilaComPilha-environment/src/main/java/adt/queue/Queue.java

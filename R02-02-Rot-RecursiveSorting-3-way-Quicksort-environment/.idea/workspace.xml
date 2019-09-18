@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee61ee10-b1d8-4e4f-b8a7-0db706ba47f4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sorting/divideAndConquer/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sorting/divideAndConquer/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sorting/divideAndConquer/threeWayQuicksort/ThreeWayQuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sorting/divideAndConquer/threeWayQuicksort/ThreeWayQuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/sorting/test/StudentSortingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sorting/test/StudentSortingTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-sorting.test.StudentSortingTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-sorting.test.StudentSortingTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/sorting.test.StudentSortingTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/sorting.test.StudentSortingTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/web/static/js/chart.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/web/static/js/chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../R01-02-Rot-SimpleSorting-Simultaneous-Selection-environment/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R01-02-Rot-SimpleSorting-Simultaneous-Selection-environment/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../R01-02-Rot-SimpleSorting-Simultaneous-Selection-environment/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R01-02-Rot-SimpleSorting-Simultaneous-Selection-environment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../R01-02-Rot-SimpleSorting-Simultaneous-Selection-environment/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R01-02-Rot-SimpleSorting-Simultaneous-Selection-environment/src/main/java/sorting/simpleSorting/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../R01-02-Rot-SimpleSorting-Simultaneous-Selection-environment/src/main/java/sorting/simpleSorting/InsertionSort.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +26,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567104016671" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../TST" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -89,6 +80,7 @@
       <updated>1567101435814</updated>
       <workItem from="1567117034910" duration="9652000" />
       <workItem from="1567466513006" duration="14000" />
+      <workItem from="1568249814375" duration="45000" />
     </task>
     <servers />
   </component>
