@@ -2,11 +2,20 @@ package adt.queue;
 
 import adt.linkedList.DoubleLinkedList;
 import adt.linkedList.DoubleLinkedListImpl;
+import adt.linkedList.DoubleLinkedListNode;
+
+import java.util.Random;
 
 public class QueueDoubleLinkedListImpl<T> implements Queue<T> {
 
 	protected DoubleLinkedList<T> list;
 	protected int size;
+
+	public static void main(String[] args) {
+		QueueDoubleLinkedListImpl queue = new QueueDoubleLinkedListImpl(6);
+		System.out.println(queue.isEmpty());
+	}
+
 
 	public QueueDoubleLinkedListImpl(int size) {
 		this.size = size;
@@ -27,20 +36,25 @@ public class QueueDoubleLinkedListImpl<T> implements Queue<T> {
 
 	@Override
 	public T head() {
-		// TODO Auto-generated method stub
-		throw new UnsupportedOperationException("Not implemented yet!");
+		if (this.isEmpty()) {
+			return null;
+		}
+	}
+
+	private int getHeadPosition() {
+		if (this)
 	}
 
 	@Override
 	public boolean isEmpty() {
-		// TODO Auto-generated method stub
-		throw new UnsupportedOperationException("Not implemented yet!");
+		if (this.list.size() == 0) return true;
+		return false;
 	}
 
 	@Override
 	public boolean isFull() {
-		// TODO Auto-generated method stub
-		throw new UnsupportedOperationException("Not implemented yet!");
+		if (this.list.size() == size) return true;
+		return false;
 	}
 
 }
