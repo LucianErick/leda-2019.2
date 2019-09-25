@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a48671e8-70b4-4d4c-88df-e8db8e6031ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../R01-02-Rot-SimpleSorting-Simultaneous-Selection-environment/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R01-02-Rot-SimpleSorting-Simultaneous-Selection-environment/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../R01-02-Rot-SimpleSorting-Simultaneous-Selection-environment/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R01-02-Rot-SimpleSorting-Simultaneous-Selection-environment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../R01-02-Rot-SimpleSorting-Simultaneous-Selection-environment/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R01-02-Rot-SimpleSorting-Simultaneous-Selection-environment/src/main/java/sorting/simpleSorting/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../R01-02-Rot-SimpleSorting-Simultaneous-Selection-environment/src/main/java/sorting/simpleSorting/InsertionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R02-02-Rot-RecursiveSorting-3-way-Quicksort-environment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../R02-02-Rot-RecursiveSorting-3-way-Quicksort-environment/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/adt/queue/QueueImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adt/queue/QueueImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/adt/stack/StackImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adt/stack/StackImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/adt/queue/StudentQueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/adt/queue/StudentQueueTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/adt/stack/StudentStackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/adt/stack/StudentStackTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -169,6 +158,7 @@
       <option name="presentableId" value="Default" />
       <updated>1568727628413</updated>
       <workItem from="1568829289201" duration="2851000" />
+      <workItem from="1568935506315" duration="434000" />
     </task>
     <servers />
   </component>
@@ -180,7 +170,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
