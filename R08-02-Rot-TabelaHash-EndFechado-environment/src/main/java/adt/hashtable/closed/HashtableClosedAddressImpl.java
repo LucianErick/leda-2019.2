@@ -1,12 +1,20 @@
 package adt.hashtable.closed;
 
+<<<<<<< HEAD
 import adt.hashtable.hashfunction.HashFunction;
 import adt.hashtable.hashfunction.HashFunctionClosedAddressMethod;
 import adt.hashtable.hashfunction.HashFunctionFactory;
+=======
+import adt.hashtable.hashfunction.*;
+>>>>>>> e343008da5c688747532c6539fbe7da04fc6087f
 import util.Util;
 
 import java.lang.reflect.UndeclaredThrowableException;
 import java.util.Arrays;
+<<<<<<< HEAD
+=======
+import java.util.Hashtable;
+>>>>>>> e343008da5c688747532c6539fbe7da04fc6087f
 import java.util.Scanner;
 
 public class HashtableClosedAddressImpl<T> extends
@@ -69,7 +77,14 @@ public class HashtableClosedAddressImpl<T> extends
 
 	@Override
 	public void insert(T element) {
+<<<<<<< HEAD
 		
+=======
+		int length = this.table.length;
+		HashFunctionMultiplicationMethod hashFunction = new HashFunctionMultiplicationMethod(length);
+
+		this.table[hashFunction.hash(element1)] = element1;
+>>>>>>> e343008da5c688747532c6539fbe7da04fc6087f
 	}
 
 	@Override
@@ -90,6 +105,7 @@ public class HashtableClosedAddressImpl<T> extends
 		throw new UnsupportedOperationException("Not implemented yet!");
 	}
 
+<<<<<<< HEAD
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		HashtableClosedAddressImpl hashtableClosedAddress = new HashtableClosedAddressImpl(15, HashFunctionClosedAddressMethod.DIVISION);
@@ -100,3 +116,16 @@ public class HashtableClosedAddressImpl<T> extends
 }
 
 
+=======
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.print("digite aqui o tamanho de tabela desejada: ");
+		int num = sc.nextInt();
+		HashtableClosedAddressImpl hashtableClosedAddress = new HashtableClosedAddressImpl(num, HashFunctionClosedAddressMethod.MULTIPLICATION);
+		System.out.println(Arrays.toString(hashtableClosedAddress.table));
+		hashtableClosedAddress.insert("Oi");
+		System.out.println(Arrays.toString(hashtableClosedAddress.table));
+	}
+}
+>>>>>>> e343008da5c688747532c6539fbe7da04fc6087f
