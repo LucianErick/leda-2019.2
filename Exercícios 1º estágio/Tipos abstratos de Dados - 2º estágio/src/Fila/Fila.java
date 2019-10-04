@@ -13,10 +13,10 @@ public class Fila {
         this.array = new int[capacity];
     }
 
-    public boolean enqueue(int value) {}
+   /* public boolean enqueue(int value) {}
     public boolean dequeue() {}
     public int peek() {}
-
+*/
 
     private boolean isFull() {
         return (getTail() + 1) % getCapacity() == getHead();
