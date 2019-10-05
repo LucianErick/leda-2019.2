@@ -101,6 +101,5 @@ public class Fila {
         System.out.println(fila.dequeue());
         System.out.println(fila.peek());
         System.out.println(fila.dequeue());
-
     }
 }
