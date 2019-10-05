@@ -1,53 +1,106 @@
 package Fila;
 
+import java.util.Arrays;
+import java.util.Scanner;
+
 public class Fila {
     private int head;
     private int tail;
     private int capacity;
-    private int[] array;
+    private Aluno[] array;
 
-    public Fila() {
+    public Fila(int capacity) {
         this.head = -1;
         this.tail = -1;
-        this.capacity = 20;
-        this.array = new int[capacity];
+        this.capacity = capacity;
+        this.array = new Aluno[capacity];
     }
 
-   /* public boolean enqueue(int value) {}
-    public boolean dequeue() {}
-    public int peek() {}
-*/
-
-    private boolean isFull() {
-        return (getTail() + 1) % getCapacity() == getHead();
+    public boolean isEmpty() {
+        return this.head == -1 && this.tail == -1;
     }
 
-    private boolean isEmpty() {
-        return getHead() == -1 && getTail() == -1;
+    public boolean isFull() {
+        return (this.tail + 1) % this.capacity == this.head;
     }
 
-    private void shiftLeft(int index) {
-        if (index > this.array.length || index < 0) {
-            throw new ArrayIndexOutOfBoundsException();
+    public void enqueue(Aluno aluno) {
+        if (isFull()) {
+            throw new IllegalArgumentException("Queue is full!");
         }
-        for (int i = index; i < this.array.length - 1; i++) {
-            this.array[i] = this.array[i + 1];
+        else if (isEmpty()) {
+            this.head++;
+            this.tail = this.head;
+            this.array[this.head] = aluno;
+        }
+        else {
+            this.tail++;
+            this.array[this.tail] = aluno;
         }
     }
 
-    public int getHead() {
-        return head;
+    public Aluno dequeue() {
+        Aluno target;
+        if (isEmpty()) {
+            throw new IllegalArgumentException("Queue is empty!");
+        }
+        if (this.head == this.tail) {
+            target = this.array[this.head];
+            this.array[this.head] = null;
+            this.head = -1;
+            this.tail = -1;
+        }
+        else {
+            target = this.array[this.head];
+            this.array[this.head] = null;
+            this.head = (this.head + 1) % this.capacity;
+        }
+        return target;
     }
 
-    public int getTail() {
-        return tail;
+    public Aluno peek() {
+        if (isEmpty()) {
+            throw new IllegalArgumentException("Queue is empty!");
+        }
+        else {
+            return this.array[this.head];
+        }
     }
 
-    public int getCapacity() {
-        return capacity;
-    }
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("digite a capacidade da fila:");
+        int siz = sc.nextInt();
+        Fila fila = new Fila(siz);
 
-    public int[] getArray() {
-        return array;
+        System.out.println(Arrays.toString(fila.array));
+        fila.enqueue(new Aluno("luciano", "1", "1"));
+        System.out.println(Arrays.toString(fila.array));
+        fila.enqueue(new Aluno("eu", "nao", "sei"));
+        fila.enqueue(new Aluno("oi", "chama", "zap"));
+        System.out.println(Arrays.toString(fila.array));
+        fila.enqueue(new Aluno("oi", "chama", "zap"));
+        fila.enqueue(new Aluno("oi", "chama", "zap"));
+        fila.enqueue(new Aluno("oi", "chama", "zap"));
+        fila.enqueue(new Aluno("oi", "chama", "zap"));
+        fila.enqueue(new Aluno("oi", "chama", "zap"));
+        System.out.println(Arrays.toString(fila.array));
+        System.out.println(fila.dequeue());
+        System.out.println(fila.dequeue());
+        System.out.println(fila.dequeue());
+        System.out.println(fila.dequeue());
+        System.out.println(fila.dequeue());
+        System.out.println(fila.dequeue());
+        System.out.println(fila.dequeue());
+        System.out.println(Arrays.toString(fila.array));
+        System.out.println(fila.dequeue());
+        System.out.println(Arrays.toString(fila.array));
+        fila.enqueue(new Aluno("Luciano", "13254", "aaaaaaaa"));
+        fila.enqueue(new Aluno("Ana Carolina","15050", "118110388"));
+        System.out.println(fila.peek());
+        System.out.println(fila.dequeue());
+        System.out.println(fila.peek());
+        System.out.println(fila.dequeue());
+
     }
 }
