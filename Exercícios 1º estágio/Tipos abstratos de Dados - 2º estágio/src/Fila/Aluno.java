@@ -3,7 +3,7 @@ package Fila;
 public class Aluno {
     private String nome;
     private String cpf;
-    private String matricula;
+    private int matricula;
 
     public Aluno(String nome, String cpf, String matricula) {
         this.nome = nome;
@@ -19,8 +19,20 @@ public class Aluno {
         return cpf;
     }
 
-    public String getMatricula() {
+    public int getMatricula() {
         return matricula;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public void setCpf(String cpf) {
+        this.cpf = cpf;
+    }
+
+    public void setMatricula(int matricula) {
+        this.matricula = matricula;
     }
 
     @Override

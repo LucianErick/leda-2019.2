@@ -67,6 +67,22 @@ public class Fila {
         }
     }
 
+    public int getHead() {
+        return head;
+    }
+
+    public int getTail() {
+        return tail;
+    }
+
+    public int getCapacity() {
+        return capacity;
+    }
+
+    public Aluno[] getArray() {
+        return array;
+    }
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("digite a capacidade da fila:");
