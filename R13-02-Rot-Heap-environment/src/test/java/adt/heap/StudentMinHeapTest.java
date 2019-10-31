@@ -14,13 +14,20 @@ import org.junit.Test;
 public class StudentMinHeapTest {
 
 	Heap<Integer> heap;
-
 	@Before
 	public void setUp() {
 		// TODO Instancie seu comparator para fazer sua estrutura funcionar como
 		// uma min heap aqui. Use instanciacao anonima da interface
 		// Comparator!!!!
-		Comparator<Integer> comparator = null;
+		Comparator<Integer> comparator = new Comparator<Integer>() {
+
+			@Override
+			public int compare(Integer o1, Integer o2) {
+				return o2.compareTo(o1);
+			}
+
+		};
+
 		heap = new HeapImpl<Integer>(comparator);
 	}
 
