@@ -2,41 +2,99 @@ package adt.avltree;
 
 import adt.bst.BSTImpl;
 import adt.bst.BSTNode;
+import adt.bt.Util;
 
 /**
- * 
- * Implementacao de uma arvore AVL
- * 
+ *
+ * Performs consistency validations within a AVL Tree instance
+ *
  * @author Claudio Campelo
  *
  * @param <T>
  */
 public class AVLTreeImpl<T extends Comparable<T>> extends BSTImpl<T> implements
 		AVLTree<T> {
-	// TODO Do not forget: you must override the methods insert and remove
-	// conveniently.
 
-	private static final int ZERO = 0;
-	private static final int BALANCE_LEFT = 1;
-	private static final int BALANCE_RIGHT = -1;
+	@Override
+	public void insert(T element) {
+		super.insert(element);
+		BSTNode<T> node = search(element);
+		rebalanceUp(node);
+	}
+
+	@Override
+	public void remove(T element) {
+		BSTNode<T> node = search(element);
+
+		if (!node.isEmpty()) {
+			BSTNode<T> parent = getParent(node);
+			super.remove(node);
+
+			if (!parent.isEmpty()) {
+				rebalanceUp(parent);
+			} else {
+				rebalanceUp(this.root);
+			}
+		}
+	}
 
 	// AUXILIARY
 	protected int calculateBalance(BSTNode<T> node) {
-		if (node == null || node.isEmpty()) {
-			return 0;
+		int result = 0;
+
+		if (!node.isEmpty()) {
+			result = height(getLeft(node)) - height(getRight(node));
 		}
-		int height
+
+		return result;
 	}
 
 	// AUXILIARY
 	protected void rebalance(BSTNode<T> node) {
-		// TODO Auto-generated method stub
-		throw new UnsupportedOperationException("Not implemented yet!");
+		BSTNode<T> result = node;
+		boolean isRoot = node.getParent().isEmpty();
+
+		if (isFirstCase(node)) {
+			if (isThirdCase(node)) {
+				Util.rightRotation(getRight(node));
+			}
+
+			result = Util.leftRotation(node);
+		} else if (isSecondCase(node)) {
+			if (isFourthCase(node)) {
+				Util.leftRotation(getLeft(node));
+			}
+
+			result = Util.rightRotation(node);
+		}
+
+		if (isRoot) {
+			this.root = result;
+		}
+
+	}
+
+	private boolean isFirstCase(BSTNode<T> node) {
+		return calculateBalance(node) < -1;
+	}
+
+	private boolean isSecondCase(BSTNode<T> node) {
+		return calculateBalance(node) > 1;
+	}
+
+	private boolean isThirdCase(BSTNode<T> node) {
+		return calculateBalance(getRight(node)) > 0;
+	}
+
+	private boolean isFourthCase(BSTNode<T> node) {
+		return  calculateBalance(getLeft(node)) < 0;
 	}
 
 	// AUXILIARY
 	protected void rebalanceUp(BSTNode<T> node) {
-		// TODO Auto-generated method stub
-		throw new UnsupportedOperationException("Not implemented yet!");
+		if (!node.isEmpty()) {
+			rebalance(node);
+			rebalanceUp(getParent(node));
+		}
 	}
 }
