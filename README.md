@@ -18,6 +18,6 @@ Roteiros do laboratório de estruturas de dados. (2019.2)
 [**R13**](https://github.com/LucianErick/leda-2019.2/tree/master/R13-02-Rot-Heap-environment) | **10.0**
 [**R14**](https://github.com/LucianErick/leda-2019.2/tree/master/R14-02-Rot-ArvoreAVL-environment) | **9.4**
 [**R15**](https://github.com/LucianErick/leda-2019.2/tree/master/R15-02-Rot-ArvoreAVLCountFill-environment) | **8.9**
-[**R16**](https://github.com/LucianErick/leda-2019.2/tree/master/R16-02-Rot-SkipList-environment) | **10**
+[**R16**](https://github.com/LucianErick/leda-2019.2/tree/master/R16-02-Rot-SkipList-environment) | **10.0**
 [**R17**](https://github.com/LucianErick/leda-2019.2/tree/master/R17-02-Rot-ArvorePV-environment) | **7.0**
 [**R18**](https://github.com/LucianErick/leda-2019.2/tree/master/R18-02-Rot-ArvoreB-environment) | **7.4**
