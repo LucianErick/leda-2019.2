@@ -21,3 +21,6 @@ Roteiros do laboratório de estruturas de dados. (2019.2)
 [**R16**](https://github.com/LucianErick/leda-2019.2/tree/master/R16-02-Rot-SkipList-environment) | **10.0**
 [**R17**](https://github.com/LucianErick/leda-2019.2/tree/master/R17-02-Rot-ArvorePV-environment) | **7.0**
 [**R18**](https://github.com/LucianErick/leda-2019.2/tree/master/R18-02-Rot-ArvoreB-environment) | **7.4**
+
+
+- **Obs**: **N/A -> Não implementado.**
